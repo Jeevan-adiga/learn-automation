@@ -24,4 +24,20 @@ public class Person {
 		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", phoneNumber=" + phoneNumber
 				+ ", emailAddress=" + emailAddress + "]";
 	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
 }

@@ -3,7 +3,7 @@ package com.learn.automation.dp;
 import org.testng.annotations.Test;
 
 import com.learn.automation.TestBase;
-import com.learn.automation.listeners.test.TestListner;
+import com.learn.automation.listeners.TestListner;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;

@@ -4,7 +4,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 
-import com.learn.automation.listeners.suite.SuiteListeners;
+import com.learn.automation.listeners.SuiteListeners;
 
 @Listeners(value = SuiteListeners.class)
 public class TestBase {

@@ -1,4 +1,4 @@
-package com.learn.automation.listeners.suite;
+package com.learn.automation.listeners;
 
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
