@@ -1,8 +1,10 @@
 package com.learn.automation.webservices.response;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@JsonIgnoreProperties(ignoreUnknown=true)
 public final class PostmanGetResponse {
     public final Args args;
     public final Headers headers;
@@ -17,6 +19,7 @@ public final class PostmanGetResponse {
         this.url = url;
     }
 
+    @JsonIgnoreProperties(ignoreUnknown=true)
     public static final class Args {
         public final String foo1;
         public final String foo2;
@@ -29,6 +32,7 @@ public final class PostmanGetResponse {
         }
     }
 
+    @JsonIgnoreProperties(ignoreUnknown=true)
     public static final class Headers {
         public final String xForwardedProto;
         public final String xForwardedPort;
