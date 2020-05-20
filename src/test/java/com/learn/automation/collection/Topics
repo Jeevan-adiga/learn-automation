@@ -1,0 +1,18 @@
+DataType
+	- Premetive
+	- Custom
+
+Array
+
+List 
+	- ArrayList
+Set
+	- HashSet
+	
+Map
+	- HashMap
+	
+	
+	Streams
+	LamdaExpression
+	
