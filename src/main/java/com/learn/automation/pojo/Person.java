@@ -2,11 +2,12 @@ package com.learn.automation.pojo;
 
 public class Person {
 
-	String firstName;
-	String lastName;
-	String phoneNumber;
-	String emailAddress;
-	
+	public String firstName;
+	public String lastName;
+	public String phoneNumber;
+	public String emailAddress;
+	public String address;
+
 	public Person(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
